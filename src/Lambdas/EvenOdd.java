@@ -8,6 +8,7 @@ interface NumberCheck {
 public class EvenOdd {
     public static void main(String[] args) {
 
+
         NumberCheck isEven = n -> n % 2 == 0;
 
         NumberCheck isOdd = n -> n % 2 != 0;
